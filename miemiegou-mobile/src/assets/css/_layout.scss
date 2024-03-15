@@ -1,0 +1,28 @@
+// 布局样式
+
+// 引入自定义的变量主题色
+@import "./var.scss";
+
+// 透传，公共头部
+.app-common-header {
+  background-color: $theme-color !important;
+  // font-size: 14px;
+  .van-nav-bar__right,
+  .van-nav-bar__left,
+  .van-nav-bar__title {
+    color: white;
+    // 搜索框-放大镜
+    .van-icon {
+      color: $theme-color;
+    }
+  }
+  // 返回箭头
+  .van-nav-bar__left .van-icon {
+    color: white;
+  }
+  // 搜索框
+  .van-search {
+    // 消除多余
+    padding: 0;
+  }
+}

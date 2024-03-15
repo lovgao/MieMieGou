@@ -1,0 +1,15 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  // 通常会将全局性的声明文件放在项目根目录下的@types目录中，此时在 tsconfig.json中应该去include进来，才能生效。
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "@types/**/*.d.ts", "@types/pageparams.d.ts"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

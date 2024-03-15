@@ -1,0 +1,22 @@
+// 重置样式
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 92%;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+}
+
+html {
+  font-size: 13.333333333vw;
+}
+
+body {
+  font-size: 14px;
+}
