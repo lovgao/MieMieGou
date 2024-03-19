@@ -8,7 +8,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 **一个移动端电商项目--咩咩购**
 
-**技术栈：**vue3、vite、vue-router4.x、Pinia、Axios、vant4
+**技术栈：** vue3、vite、vue-router4.x、Pinia、Axios、vant4
 
 ## Recommended IDE Setup
 
