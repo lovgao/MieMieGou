@@ -84,6 +84,8 @@ const getProDetail = async () => {
   try {
     const res = await getProDetailApi(proid as string);
     proDetail.value = res;
+    console.log(res);
+    
   } catch (error) {
     console.log(error);
   }

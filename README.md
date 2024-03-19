@@ -58,7 +58,7 @@ npm run build
 
 首页（轮播图 + 十宫格 + 商品列表[2列]）：
 
-![c62691d452a3b77fc51bfd3735e3c4a](assets/c62691d452a3b77fc51bfd3735e3c4a.png)
+![image-20240318202401582](assets/image-20240318202401582.png)
 
 商品列表[1列]：
 
@@ -70,6 +70,6 @@ npm run build
 
 购物车：
 
-![51cd9b0e5710e2aef35b0523ac52386](assets/51cd9b0e5710e2aef35b0523ac52386.png)
+![image-20240318202438486](assets/image-20240318202438486.png)
 
-![3f865a2f12d33ab729e0bc9af0feff2](assets/3f865a2f12d33ab729e0bc9af0feff2.png)
+![image-20240318202506380](assets/image-20240318202506380.png)
