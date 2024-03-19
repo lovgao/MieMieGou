@@ -22,7 +22,7 @@
             <div class="price">
               <span
                 >￥{{
-                  (item.originprice * (item.discount / 10) ).toFixed(2)
+                  (item.originprice * (item.discount / 10)).toFixed(2)
                 }}</span
               >
               <span
@@ -68,7 +68,7 @@ const handleToDetail = (proid: any) => {
   router.push({
     // 命名路由传参
     name: "Detail",
-    params: {proid}
+    params: { proid },
   });
 };
 

@@ -22,7 +22,7 @@ export const useUserStore = defineStore('user', () => {
     return !!userInfo.value.userid
   })
 
-  // actions 登录方法
+  // actions 登录调用的方法
   const loginAction = async (params: ILoginParams) => {
     // 调用登录接口，返回token；再调用获取个人信息接口
     try {

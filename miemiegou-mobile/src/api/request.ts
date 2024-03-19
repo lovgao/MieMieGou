@@ -11,7 +11,7 @@ const req = axios.create({
   timeout: 5000
 })
 
-// 请求拦截
+// 请求拦截: 在发送请求之前做些什么，例如添加 token
 req.interceptors.request.use(
   (config) => {
 
@@ -25,7 +25,7 @@ req.interceptors.request.use(
     return Promise.reject(err)
   })
 
-// 响应拦截
+// 响应拦截: 对响应数据做点什么，例如处理状态码
 req.interceptors.response.use(
   (res) => {
     console.log(res);
